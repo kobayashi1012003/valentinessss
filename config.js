@@ -42,8 +42,8 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW you love me this much?! 🥰🚀💝",  // Shows when they go past 5000%
-        high: "OOHH REALLLYYY 🥰💝",              // Shows when they go past 1000%
+        extreme: "woowww you love me this much?! 🥰🚀💝",  // Shows when they go past 5000%
+        high: "oooh realllyyy 🥰💝",              // Shows when they go past 1000%
         normal: "ooh ty ty 🥰"                           // Shows when they go past 100%
     },
 
@@ -78,9 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
